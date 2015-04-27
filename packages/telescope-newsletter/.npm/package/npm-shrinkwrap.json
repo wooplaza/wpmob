@@ -16,7 +16,7 @@
           "version": "0.6.1",
           "dependencies": {
             "wordwrap": {
-              "version": "0.0.2"
+              "version": "http://registry.npmjs.org/wordwrap/-/wordwrap-0.0.2.tgz"
             },
             "minimist": {
               "version": "0.0.10"

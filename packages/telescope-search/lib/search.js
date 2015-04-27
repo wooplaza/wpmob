@@ -1,4 +1,5 @@
 // push "search" template to primaryNav
+/*
 primaryNav.push({
   template: 'search',
   order: 100
@@ -8,7 +9,7 @@ mobileNav.push({
   template: 'search',
   order: 1
 });
-
+*/
 adminMenu.push({
   route: 'searchLogs',
   label: 'search_logs',

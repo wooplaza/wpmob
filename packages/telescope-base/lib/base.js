@@ -262,10 +262,10 @@ postModules = [
     template: 'postAvatars',
     order: 30
   },
-  {
-    template: 'postDiscuss',
-    order: 40
-  },
+//  {
+//    template: 'postDiscuss',
+//    order: 40
+//  },
   {
     template: 'postActions',
     order: 50
@@ -294,10 +294,10 @@ postMeta = [
     template: 'postInfo',
     order: 20
   },
-  {
-    template: 'postCommentsLink',
-    order: 30
-  },
+//  {
+//    template: 'postCommentsLink',
+//    order: 30
+//  },
   {
     template: 'postAdmin',
     order: 50

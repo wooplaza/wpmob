@@ -307,6 +307,7 @@ postAfterSubmitMethodCallbacks.push(function (post) {
 // ------------------------------------------------------------------------------------------- //
 
 submitPost = function (post) {
+  clog("In submitPost: " + post)
 
   var userId = post.userId, // at this stage, a userId is expected
       user = Meteor.users.findOne(userId);
@@ -382,6 +383,8 @@ postViews = [];
 Meteor.methods({
 
   submitPost: function(post){
+
+    clog("In server submitPost: " + post)
 
     // required properties:
     // title
