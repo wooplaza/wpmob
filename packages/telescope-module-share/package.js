@@ -30,3 +30,9 @@ Package.onUse(function (api) {
   
   // api.export();
 });
+
+Cordova.depends({
+    'org.apache.cordova.console': '0.2.13',
+    'org.apache.cordova.device': '0.3.0',
+    'nl.x-services.plugins.socialsharing': '4.3.18'
+});
